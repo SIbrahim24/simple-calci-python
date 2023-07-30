@@ -1,0 +1,17 @@
+operator=input("Enter an operator (+ _ * /  q):")
+num1=int(input("Enter the 1st number:"))
+num2=int(input("Enter the 2nd number:"))
+if operator=="+":
+    run=num1+num2
+    print(run)
+elif operator=="-":
+    run=num1-num2
+    print(run)
+elif operator=="*":
+    run=num1*num2
+    print(run)
+elif operator=="/":
+    run=num1/num2
+    print(run)
+else:
+    print("stop")
